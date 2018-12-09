@@ -3,6 +3,7 @@
 #include <string.h>
 #include "option_list.h"
 #include "utils.h"
+#include "data.h"
 
 list *read_data_cfg(char *filename)
 {
