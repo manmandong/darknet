@@ -912,12 +912,12 @@ image copy_image(image p)
 
 void rgbgr_image(image im)
 {
-    int i;
-    for(i = 0; i < im.w*im.h; ++i){
-        float swap = im.data[i];
-        im.data[i] = im.data[i+im.w*im.h*2];
-        im.data[i+im.w*im.h*2] = swap;
-    }
+    // int i;
+    // for(i = 0; i < im.w*im.h; ++i){
+    //     float swap = im.data[i];
+    //     im.data[i] = im.data[i+im.w*im.h*2];
+    //     im.data[i+im.w*im.h*2] = swap;
+    // }
 }
 
 #ifdef OPENCV
